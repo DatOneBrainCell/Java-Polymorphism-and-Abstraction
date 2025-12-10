@@ -31,6 +31,7 @@ class Dragon {
 }
 class Wyvern extends Dragon {
     String name = new String("Wyvern");
+    @Override
     public void NoOfWings() {
         super.NoOfWings();
     }
@@ -43,6 +44,7 @@ class Drake extends Dragon{
     public void NoOfWings() {
         System.out.println(name + "s have no wings");
     }
+    @Override
     public void NoOfLegs() {
         super.NoOfLegs();
     }
